@@ -4,7 +4,7 @@
   "description": "**_Click Now, Discover Speeds, Velocity_**",
   "main": "index.js",
   "scripts": {
-    "build": "browserify app.jsx -o bundle.js -t [ babelify --presets [ es2015 react ] ]",
+    "build": "browserify js/popup.jsx -o resources/bundle.js -t [ babelify --presets [ es2015 react ] ]",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
