@@ -1,6 +1,12 @@
 ##Velocity  ![alt tag](http://icons.iconarchive.com/icons/designbolts/thin-download/48/Fast-Download-icon.png)
 **_Click Now, Discover Speeds, Velocity_**
 
+##Getting started
+1. Have Node and Npm installed
+2. Install gulp globally 'npm install -g gulp'
+3. 'npm install'
+4. run 'gulp watch' to have the project update on changes or 'gulp build' to transpile it once
+
 ##Synopsis
 Our goal with Velocity is to create an open source solution for internet speed
 testing. When completed, we will make this available as a chrome extension where
