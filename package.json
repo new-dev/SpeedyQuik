@@ -1,0 +1,33 @@
+{
+  "name": "velocity",
+  "version": "1.0.0",
+  "description": "**_Click Now, Discover Speeds, Velocity_**",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify app.jsx -o bundle.js -t [ babelify --presets [ es2015 react ] ]",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/new-dev/Velocity.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/new-dev/Velocity/issues"
+  },
+  "homepage": "https://github.com/new-dev/Velocity#readme",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+  }
+}
